@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77A156AC303892430044123F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A156A4303892430044123F /* main.m */; };
+		77A156AD303892430044123F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A156AA303892430044123F /* ViewController.m */; };
+		77A156AE303892430044123F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A156A8303892430044123F /* SceneDelegate.m */; };
+		77A156AF303892430044123F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A1569F303892430044123F /* AppDelegate.m */; };
+		77A156B0303892430044123F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A156A3303892430044123F /* LaunchScreen.storyboard */; };
+		77A156B1303892430044123F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A156A0303892430044123F /* Assets.xcassets */; };
+		77A156B3303892430044123F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A156A6303892430044123F /* Main.storyboard */; };
+		77A156B73038984C0044123F /* KKBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A156B63038984C0044123F /* KKBaseNavigationController.m */; };
+		77A156BA30389B170044123F /* KKDefaultTabBarContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A156B930389B170044123F /* KKDefaultTabBarContoller.m */; };
+		77A156BD303B2F650044123F /* KKTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A156BC303B2F650044123F /* KKTabBarViewModel.m */; };
+		77A156C0303B304A0044123F /* KKDefaultTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A156BF303B304A0044123F /* KKDefaultTabBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77A1566B303891B90044123F /* KKComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A1569E303892430044123F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77A1569F303892430044123F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77A156A0303892430044123F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77A156A1303892430044123F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A156A2303892430044123F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77A156A4303892430044123F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77A156A5303892430044123F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77A156A7303892430044123F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		77A156A8303892430044123F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		77A156A9303892430044123F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77A156AA303892430044123F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77A156B53038984C0044123F /* KKBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKBaseNavigationController.h; sourceTree = "<group>"; };
+		77A156B63038984C0044123F /* KKBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKBaseNavigationController.m; sourceTree = "<group>"; };
+		77A156B830389B170044123F /* KKDefaultTabBarContoller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKDefaultTabBarContoller.h; sourceTree = "<group>"; };
+		77A156B930389B170044123F /* KKDefaultTabBarContoller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKDefaultTabBarContoller.m; sourceTree = "<group>"; };
+		77A156BB303B2F650044123F /* KKTabBarViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKTabBarViewModel.h; sourceTree = "<group>"; };
+		77A156BC303B2F650044123F /* KKTabBarViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKTabBarViewModel.m; sourceTree = "<group>"; };
+		77A156BE303B304A0044123F /* KKDefaultTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKDefaultTabBar.h; sourceTree = "<group>"; };
+		77A156BF303B304A0044123F /* KKDefaultTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKDefaultTabBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77A15668303891B90044123F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77A15662303891B90044123F = {
+			isa = PBXGroup;
+			children = (
+				77A156953038921F0044123F /* KKComponents */,
+				77A1566C303891B90044123F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77A1566C303891B90044123F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77A1566B303891B90044123F /* KKComponents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77A156953038921F0044123F /* KKComponents */ = {
+			isa = PBXGroup;
+			children = (
+				77A156B4303894B50044123F /* tabBarController */,
+				77A156AB303892430044123F /* sys */,
+			);
+			path = KKComponents;
+			sourceTree = "<group>";
+		};
+		77A156AB303892430044123F /* sys */ = {
+			isa = PBXGroup;
+			children = (
+				77A1569E303892430044123F /* AppDelegate.h */,
+				77A1569F303892430044123F /* AppDelegate.m */,
+				77A156A0303892430044123F /* Assets.xcassets */,
+				77A156A1303892430044123F /* Info.plist */,
+				77A156A3303892430044123F /* LaunchScreen.storyboard */,
+				77A156A4303892430044123F /* main.m */,
+				77A156A6303892430044123F /* Main.storyboard */,
+				77A156A7303892430044123F /* SceneDelegate.h */,
+				77A156A8303892430044123F /* SceneDelegate.m */,
+				77A156A9303892430044123F /* ViewController.h */,
+				77A156AA303892430044123F /* ViewController.m */,
+				77A156B53038984C0044123F /* KKBaseNavigationController.h */,
+				77A156B63038984C0044123F /* KKBaseNavigationController.m */,
+			);
+			path = sys;
+			sourceTree = "<group>";
+		};
+		77A156B4303894B50044123F /* tabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				77A156B830389B170044123F /* KKDefaultTabBarContoller.h */,
+				77A156B930389B170044123F /* KKDefaultTabBarContoller.m */,
+				77A156BB303B2F650044123F /* KKTabBarViewModel.h */,
+				77A156BC303B2F650044123F /* KKTabBarViewModel.m */,
+				77A156BE303B304A0044123F /* KKDefaultTabBar.h */,
+				77A156BF303B304A0044123F /* KKDefaultTabBar.m */,
+			);
+			path = tabBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77A1566A303891B90044123F /* KKComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A15683303891BB0044123F /* Build configuration list for PBXNativeTarget "KKComponents" */;
+			buildPhases = (
+				77A15667303891B90044123F /* Sources */,
+				77A15668303891B90044123F /* Frameworks */,
+				77A15669303891B90044123F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKComponents;
+			packageProductDependencies = (
+			);
+			productName = KKComponents;
+			productReference = 77A1566B303891B90044123F /* KKComponents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77A15663303891B90044123F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					77A1566A303891B90044123F = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 77A15666303891B90044123F /* Build configuration list for PBXProject "KKComponents" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77A15662303891B90044123F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 77A1566C303891B90044123F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77A1566A303891B90044123F /* KKComponents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77A15669303891B90044123F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A156B0303892430044123F /* LaunchScreen.storyboard in Resources */,
+				77A156B1303892430044123F /* Assets.xcassets in Resources */,
+				77A156B3303892430044123F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77A15667303891B90044123F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A156AC303892430044123F /* main.m in Sources */,
+				77A156B73038984C0044123F /* KKBaseNavigationController.m in Sources */,
+				77A156AD303892430044123F /* ViewController.m in Sources */,
+				77A156C0303B304A0044123F /* KKDefaultTabBar.m in Sources */,
+				77A156AE303892430044123F /* SceneDelegate.m in Sources */,
+				77A156BA30389B170044123F /* KKDefaultTabBarContoller.m in Sources */,
+				77A156AF303892430044123F /* AppDelegate.m in Sources */,
+				77A156BD303B2F650044123F /* KKTabBarViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77A156A3303892430044123F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77A156A2303892430044123F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		77A156A6303892430044123F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77A156A5303892430044123F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77A15684303891BB0044123F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KKComponents/sys/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = K.K;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hukun.KKComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77A15685303891BB0044123F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KKComponents/sys/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = K.K;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hukun.KKComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77A15686303891BB0044123F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77A15687303891BB0044123F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77A15666303891B90044123F /* Build configuration list for PBXProject "KKComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A15686303891BB0044123F /* Debug */,
+				77A15687303891BB0044123F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A15683303891BB0044123F /* Build configuration list for PBXNativeTarget "KKComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A15684303891BB0044123F /* Debug */,
+				77A15685303891BB0044123F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77A15663303891B90044123F /* Project object */;
+}
